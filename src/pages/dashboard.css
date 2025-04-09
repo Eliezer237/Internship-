@@ -1,0 +1,87 @@
+
+
+.welcome{
+    position: absolute;
+    padding-left: 700px;
+    color: rgb(31, 9, 9);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.dashboard-container{
+    display: flex;
+    flex-direction: column;
+}
+.dashboard-main{
+    display: grid;
+    grid-template-columns: 260px 1fr 260px;
+    gap:24px;
+}
+
+.dashboard-right{
+display: flex;
+flex-direction: column;
+}
+
+
+.card1 {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin: 20px 50px 0 0;
+    padding: 40px;
+    max-width: 400px;
+    background-color: #c38282; /* optional, makes shadow more visible */
+}
+
+.card2 {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin: 20px 50px 0 0;
+    padding: 40px;
+    max-width: 400px;
+    background-color: #c38282;
+}
+
+.card2 h1{
+    margin-left: 60px;
+}
+
+
+
+.card2 ul li {
+    margin-right: 50px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.card1,
+.card2 {
+    margin-left: auto; /* pushes the element to the right */
+    margin-right: 50px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 400px;
+    background-color: #66656599;
+   
+}
+.card2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+   
+
+
+
+  
+
+
+
+ 
